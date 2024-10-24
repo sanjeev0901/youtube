@@ -1,0 +1,17 @@
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+}
+.left_section {
+  background-color: lightblue;
+  width: 150px;
+}
+.middle_section {
+  background-color: lightpink;
+  flex: 1;
+}
+.right_section {
+  background-color: lightblue;
+  width: 200px;
+}
