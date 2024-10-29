@@ -6,6 +6,9 @@ p {
 
 body {
   margin: 0;
-  padding-top: 60px;
-  padding-left: 75px;
+}
+.page-grid {
+  display: grid;
+  grid-template-columns: 75px 1fr;
+  grid-template-rows: 60px 1fr;
 }
