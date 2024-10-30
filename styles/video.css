@@ -1,8 +1,7 @@
 .video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 16px;
-  row-gap: 40px;
+  gap: 40px 16px;
   z-index: -1;
   padding: 25px;
   background-color: rgb(248, 248, 248);
@@ -13,7 +12,6 @@
   row-gap: 12px;
   flex-direction: column;
   vertical-align: top;
-  /* margin-right: 15px; */
 }
 .thumbnail_container {
   position: relative;
@@ -22,12 +20,12 @@
   width: 100%;
 }
 .channel_pfp_container {
-  display: inline-block;
-  width: 45px;
-  vertical-align: top;
+  height: 100%;
+  width: 17%;
+  align-self: flex-start;
 }
 .pfp_img {
-  width: 80%;
+  width: 83%;
   border-radius: 50px;
 }
 .channel_info_container {
@@ -46,7 +44,6 @@
 .details_container {
   display: flex;
   column-gap: 10px;
-  /* margin-top: 20px; */
 }
 
 .video_title_text {
@@ -54,9 +51,7 @@
   font-size: 14px;
 }
 .video-time {
-  font-family: Roboto, Arial;
-  font-size: 12px;
-  font-weight: 500;
+  font: 500 12px Roboto, Arial;
   position: absolute;
   background-color: black;
   color: white;
